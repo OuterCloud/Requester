@@ -1,0 +1,4 @@
+Thu, 23 Nov 2017 17:21:30 requester.py[line:34] INFO 查询登录状态接口
+Thu, 23 Nov 2017 17:21:30 connectionpool.py[line:818] DEBUG Starting new HTTPS connection (1): fa.163.com
+Thu, 23 Nov 2017 17:21:30 connectionpool.py[line:395] DEBUG https://fa.163.com:443 "GET /identity/queryLoginStatus.do HTTP/1.1" 200 None
+Thu, 23 Nov 2017 17:21:30 requester.py[line:28] INFO {"ret":false,"retDesc":"操作成功","adFlag":false,"retCode":"200"}
