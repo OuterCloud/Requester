@@ -1,14 +1,14 @@
 ## README
-这是一个名叫requester的接口测试工具。
-1. 在request\_data.py里填写接口测试用到的相关信息（url,data,type）：
-    
-    参数url代表待测接口的url
-    参数data代表待测接口的上行参数（json格式）
-    参数type代表待测接口的请求方式（get/post两种）
  
-2. 在requester.log中记录接口测试日志；
-3. 在logger.conf中进行日志配置；
-4. 有test和test\_all两种方法，示例在requester.py的main函数中。
+* 在request\_data.py里填写接口测试用到的相关信息（url,data,type）：
+    
+        参数url代表待测接口的url
+        参数data代表待测接口的上行参数（json格式）
+        参数type代表待测接口的请求方式（get/post两种）
+ 
+* 在requester.log中记录接口测试日志
+* 在logger.conf中进行日志配置
+* 有test和test\_all两种方法（示例在requester.py的main函数中）
  
 ## What is this repository for? ###
 
