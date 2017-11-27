@@ -5,7 +5,6 @@
         参数url代表待测接口的url
         参数data代表待测接口的上行参数（json格式）
         参数type代表待测接口的请求方式（get/post两种）
- 
 * 在requester.log中记录接口测试日志
 * 在logger.conf中进行日志配置
 * 有test和test\_all两种方法（示例在requester.py的main函数中）
